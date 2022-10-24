@@ -24,6 +24,7 @@ function WeatherDisplay(props) {
             {Math.round(props.wind)}km/h
           </li>
         </ul>
+
         <div className="weatherIcon">
           <ReactAnimatedWeather
             icon="RAIN"
@@ -34,8 +35,6 @@ function WeatherDisplay(props) {
         </div>
       </div>
     );
-  } else {
-    return <div className="cityName">Hello </div>;
   }
 }
 

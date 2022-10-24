@@ -10,15 +10,14 @@ function App() {
     <div>
       <SearchEngine />
       <div className="footer">
-        Open-source code by
         <a
           className="link"
           href="https://github.com/isadoraseffair/weather-react-app"
           alt="GitHub Link"
           target="blank"
-        >
-          Isadora Seffair
+        >Open-source code
         </a>
+         by Isadora Seffair
       </div>
     </div>
   );
