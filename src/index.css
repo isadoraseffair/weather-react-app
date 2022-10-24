@@ -52,3 +52,13 @@
 .mainInfo {
   text-align: center;
 }
+.footer {
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 200;
+  color: #132743;
+}
+.link {
+  margin-left: 2px;
+}

@@ -9,6 +9,17 @@ function App() {
   return (
     <div>
       <SearchEngine />
+      <div className="footer">
+        Open-source code by
+        <a
+          className="link"
+          href="https://github.com/isadoraseffair/weather-react-app"
+          alt="GitHub Link"
+          target="blank"
+        >
+          Isadora Seffair
+        </a>
+      </div>
     </div>
   );
 }
