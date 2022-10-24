@@ -1,13 +1,54 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.App {
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+  font-size: 30px;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.heading {
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+  font-weight: 800;
+  color: #113f67;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+}
+.cityName {
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 200;
+  color: #113f67;
+  margin: 20px 10px 30px 20px;
+  text-transform: capitalize;
+}
+.searchSpace {
+  border-radius: 5px;
+  font-family: "Manrope", sans-serif;
+  border-color: #a2a8d3;
+}
+.searchBtn {
+  border-radius: 5px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  background-color: #a2a8d3;
+  border: none;
+  color: #113f67;
+  margin-left: 5px;
+}
+.forecastListing,
+.weatherIcon {
+  list-style-type: none;
+  font-family: "Manrope", sans-serif;
+  font-weight: 200;
+  color: #132743;
+  display: inline-block;
+}
+.descriptionInfo {
+  color: #113f67;
+}
+.forecastListing {
+  margin-right: 100px;
+  text-align: justify;
+}
+.mainInfo {
+  text-align: center;
 }
