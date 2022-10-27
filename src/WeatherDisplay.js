@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import ReactAnimatedWeather from "react-animated-weather";
-import SearchEngine from "./SearchEngine";
 
 function WeatherDisplay(props) {
   if (props.city !== null) {

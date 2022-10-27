@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import axios from "axios";
-import ReactAnimatedWeather from "react-animated-weather";
 import WeatherDisplay from "./WeatherDisplay";
 
 function SearchEngine() {
